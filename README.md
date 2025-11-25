@@ -9,3 +9,4 @@ Python: 3.8
 Non-Standard Hardware  
 Minimum: 16GB RAM, 50GB free disk space.  
 
+### The software is released under the MIT License, an Open Source Initiative (OSI)–approved permissive license that permits reuse, modification, and redistribution, provided that the original copyright notice is retained.
