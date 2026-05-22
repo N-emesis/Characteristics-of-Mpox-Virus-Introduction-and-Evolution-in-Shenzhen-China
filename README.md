@@ -18,7 +18,3 @@ This repository contains the analytical pipeline, scripts, Jupyter Notebooks, an
 
 *   Software: IQ-TREE, TreeTime, R
 *   Python 3.8+ Packages: `pandas`, `numpy`, `scipy`, `matplotlib`, `seaborn`, `biopython`, `jupyter`
-
-## Note for Reviewers
-
-All code comments and output labels have been translated into English. The `xml_files` directory is provided to ensure transparency in how the spatiotemporal transmission and importation events were constructed from the sequences.
