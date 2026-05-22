@@ -1,12 +1,24 @@
-# System Requirements
-Software Dependencies  
-The pipeline requires the following core dependencies (full list in environment.yml):  
+# Mpox Virus (hMpxV) Spatiotemporal Dynamics Analysis
 
-Operating System: Linux (tested on Ubuntu 20.04 LTS; other Linux distributions may work)  
-Conda: Miniconda3  
-Python: 3.8  
+This repository contains the analytical pipeline, scripts, Jupyter Notebooks, and intermediate data (including tree and XML files) used for the study of Mpox virus spatiotemporal dynamics.
 
-Non-Standard Hardware  
-Minimum: 16GB RAM, 50GB free disk space.  
+## Repository Structure
 
-The software is released under the MIT License, an Open Source Initiative (OSI)–approved permissive license that permits reuse, modification, and redistribution, provided that the original copyright notice is retained.
+*   **code/**: Contains all scripts used for data processing and visualization.
+    *   **Fig2_3_Phylogenies/**: Scripts for phylogenetic analysis and tree visualization.
+    *   **Fig6_Introduction_Events/**: Pipeline for estimating viral importation events (ML tree inference, molecular clock, ancestral state reconstruction, and rarefaction analysis).
+    *   **Fig7_Epidemiology/**: Scripts for calculating $R_0$ and plotting $R_e$.
+    *   **dN_dS_and_Mutations/**: Visualization scripts for dN/dS ratios and mutation profiles.
+    *   **Misc_Analysis/**: Additional analysis scripts for demographic data.
+    *   **Jupyter_Notebooks/**: Interactive notebooks used to generate the final figures, including a `data/` subfolder with necessary intermediate datasets.
+*   **results/**: Contains inferred ML trees, TimeTrees, and estimation results.
+*   **xml_files/**: Contains the phyloXML files generated during the TreeTime ancestral state reconstruction (Mugration model). These files include time-calibrated trees with ancestral geographic states and serve as the source data for the importation events inferred in Figure 6.
+
+## Dependencies
+
+*   Software: IQ-TREE, TreeTime, R
+*   Python 3.8+ Packages: `pandas`, `numpy`, `scipy`, `matplotlib`, `seaborn`, `biopython`, `jupyter`
+
+## Note for Reviewers
+
+All code comments and output labels have been translated into English. The `xml_files` directory is provided to ensure transparency in how the spatiotemporal transmission and importation events were constructed from the sequences.
