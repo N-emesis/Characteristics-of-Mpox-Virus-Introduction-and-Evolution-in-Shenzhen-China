@@ -1,6 +1,6 @@
 # Mpox Virus (hMpxV) Spatiotemporal Dynamics Analysis
 
-This repository contains the analytical pipeline, scripts, Jupyter Notebooks, and intermediate data (including tree and XML files) used for the study of Mpox virus spatiotemporal dynamics.
+This repository contains the analytical pipeline, scripts, Jupyter Notebooks, and intermediate data used for the study of Mpox virus spatiotemporal dynamics.
 
 ## Repository Structure
 
@@ -12,7 +12,7 @@ This repository contains the analytical pipeline, scripts, Jupyter Notebooks, an
     *   **Misc_Analysis/**: Additional analysis scripts for demographic data.
     *   **Jupyter_Notebooks/**: Interactive notebooks used to generate the final figures, including a `data/` subfolder with necessary intermediate datasets.
 *   **results/**: Contains inferred ML trees, TimeTrees, and estimation results.
-*   **xml_files/**: Contains the phyloXML files generated during the TreeTime ancestral state reconstruction (Mugration model). These files include time-calibrated trees with ancestral geographic states and serve as the source data for the importation events inferred in Figure 6.
+*   **xml_files/**: Contains the phyloXML files generated during the TreeTime ancestral state reconstruction. These files include time-calibrated trees with ancestral geographic states and serve as the source data for the importation events inferred in Figure 6.
 
 ## Dependencies
 
